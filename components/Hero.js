@@ -14,7 +14,7 @@ const Hero = ({ data }) => {
         <p className="pt-3 text-lg md:text-2xl text-gray-600 dark:text-gray-400 font-medium">
           Web & App Developer
         </p>
-        <button className="bg-blue-200 text-blue-500 hover:opacity-80 active:scale-90 transition transform duration-150 ease-out font-semibold tracking-wide text-lg rounded w-64 p-3 mt-6 md:mt-10">
+        <button className="bg-green-200 text-green-500 hover:opacity-80 active:scale-90 transition transform duration-150 ease-out font-semibold tracking-wide text-lg rounded w-64 p-3 mt-6 md:mt-10">
           HIRE ME
         </button>
         <ArrowDownIcon className="hidden md:inline-flex absolute h-12 left-1/2 bottom-20 animate-bounce dark:text-white" />
