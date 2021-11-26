@@ -1,4 +1,6 @@
 {
+  "author": "Avi Avinav <aviavinav2004@gmail.com> (https://github.com/AviAvinav)",
+  "license": "MIT",
   "name": "portfolio",
   "private": true,
   "scripts": {
@@ -8,12 +10,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.4",
+    "@heroicons/react": "^1.0.5",
+    "graphql-request": "^3.6.1",
+    "next": "^12.0.4",
     "react": "17.0.2",
+    "react-datocms": "^1.6.6",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.0",
     "eslint": "7",
-    "eslint-config-next": "12.0.4"
+    "eslint-config-next": "12.0.4",
+    "postcss": "^8.4.1",
+    "tailwindcss": "^2.2.19"
   }
 }
