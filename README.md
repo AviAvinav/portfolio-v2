@@ -1,8 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
 
-## Getting Started
+So, I was developing my new portfolio with a simple design. Here, it is. It is still under-construction though. If you like you can use this portfolio.
 
-First, run the development server:
+## Preview
+
+You can view the current demo website [here](https://portfolio-v2-one-eta.vercel.app/).
+
+## Quick Start
+
+First, clone this repo and install the dependecies:
+
+```bash
+git clone https://github.com/AviAvinav/portfolio-v2.git
+
+npm i
+#or
+yarn
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -12,23 +28,33 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Modify it with your content.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Next.js Docs](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [the Next.js GitHub repo](https://github.com/vercel/next.js/).
+
+- [Tailwind CSS Docs](https://tailwindcss.com/docs) - learn about Tailwind CSS features.
+
+- [Dato CMS Docs for Next.js](https://www.datocms.com/docs) - learn about how to use DatoCMS.
+
+- [Dato CMS Docs for Next.js](https://www.datocms.com/docs/content-modelling) - learn about content modelling in DatoCMS.
+
+- [Hero Icons](https://heroicons.com/)
+
+- [React Icons](https://react-icons.github.io/react-icons)
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I find it most comfortable in deploying Next.js on the [Vercel Platform](https://vercel.com/) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## License
+
+MIT © [Avi Avinav](https://github.com/AviAvinav)
