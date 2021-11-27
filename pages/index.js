@@ -53,7 +53,7 @@ const Home = ({ data }) => {
     <div className="font-outfit">
       <Head>
         <title>Avi Avinav</title>
-        <meta name="description" content="Avi Avinav's portfolio website" />
+        <meta name="description" content="Avi Avinav portfolio website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="h-full w-full bg-gray-50 dark:bg-gray-800">
