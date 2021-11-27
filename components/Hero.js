@@ -9,7 +9,7 @@ const Hero = ({ data }) => {
           Hi!
         </h1>
         <h1 className="text-4xl md:text-6xl font-semibold tracking-wider text-black dark:text-white pt-1 md:pt-3">
-          I`&apos` m Avi.
+          I am Avi.
         </h1>
         <p className="pt-3 text-lg md:text-2xl text-gray-600 dark:text-gray-400 font-medium">
           Web & App Developer
