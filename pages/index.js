@@ -20,6 +20,7 @@ import {
 
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import TechStackItem from "../components/TechStackItem";
 
 import { request } from "../lib/datocms";
 
@@ -67,23 +68,31 @@ const Home = ({ data }) => {
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-black dark:text-white">
               {data.homePage.title2}
             </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-20 md:gap-x-40 gap-y-10 text-green-400 dark:text-green-200 text-5xl md:text-6xl py-5">
-              <SiTailwindcss />
-              <SiNextdotjs />
-              <SiReact />
-              <SiRedux />
-              <SiNodedotjs />
-              <SiMongodb />
-              <SiFirebase />
-              <SiGraphql />
-              <SiStripe />
-              <SiStyledcomponents />
-              <SiCss3 />
-              <SiHtml5 />
-              <SiFigma />
-              <SiAdobexd />
-              <SiGit />
-              <SiBootstrap />
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-20 md:gap-x-30 gap-y-10 text-green-400 dark:text-green-200 text-5xl md:text-6xl py-5 overflow-x-hidden overflow-y-hidden">
+              <TechStackItem
+                Icon={SiTailwindcss}
+                text="Tailwind CSS"
+                desc="A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup."
+                href="https://tailwindcss.com/"
+              />
+              <TechStackItem Icon={SiNextdotjs} text="Next.js" />
+              <TechStackItem Icon={SiReact} text="React.js" />
+              <TechStackItem Icon={SiRedux} text="Redux" />
+              <TechStackItem Icon={SiNodedotjs} text="Node.js" />
+              <TechStackItem Icon={SiMongodb} text="MongoDB" />
+              <TechStackItem Icon={SiFirebase} text="Firebase" />
+              <TechStackItem Icon={SiGraphql} text="GraphQL" />
+              <TechStackItem Icon={SiStripe} text="Stripe" />
+              <TechStackItem
+                Icon={SiStyledcomponents}
+                text="Styled Components"
+              />
+              <TechStackItem Icon={SiCss3} text="CSS3" />
+              <TechStackItem Icon={SiHtml5} text="HTML5" />
+              <TechStackItem Icon={SiFigma} text="Figma" />
+              <TechStackItem Icon={SiAdobexd} text="Adobe XD" />
+              <TechStackItem Icon={SiGit} text="Git" />
+              <TechStackItem Icon={SiBootstrap} text="Bootstrap" />
             </div>
           </div>
         </main>
