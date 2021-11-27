@@ -5,25 +5,17 @@ import {
   SiReact,
   SiRedux,
   SiNodedotjs,
-  SiTensorflow,
-  SiPython,
   SiMongodb,
   SiFirebase,
   SiGraphql,
   SiStripe,
-  SiPostgresql,
   SiStyledcomponents,
   SiCss3,
   SiHtml5,
   SiFigma,
   SiAdobexd,
-  SiCanva,
-  SiAndroid,
-  SiApollographql,
-  SiMaterialui,
   SiGit,
   SiBootstrap,
-  SiMapbox,
 } from "react-icons/si";
 
 import Navbar from "../components/Navbar";
@@ -81,25 +73,17 @@ const Home = ({ data }) => {
               <SiReact />
               <SiRedux />
               <SiNodedotjs />
-              <SiTensorflow />
-              <SiPython />
               <SiMongodb />
               <SiFirebase />
               <SiGraphql />
               <SiStripe />
-              <SiPostgresql />
               <SiStyledcomponents />
               <SiCss3 />
               <SiHtml5 />
               <SiFigma />
               <SiAdobexd />
-              <SiCanva />
-              <SiAndroid />
-              <SiApollographql />
-              <SiMaterialui />
               <SiGit />
               <SiBootstrap />
-              <SiMapbox />
             </div>
           </div>
         </main>
