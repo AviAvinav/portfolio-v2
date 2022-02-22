@@ -1,6 +1,8 @@
 # Portfolio
 
-So, I was developing my new portfolio with a simple design. Here, it is. It is still under-construction though. If you like you can use this portfolio.
+So, I was developing my new portfolio with a simple design. Here, it is. If you like you can use this portfolio.
+
+This project is currently under construction. It will be complete in a few days.
 
 ## Preview
 
