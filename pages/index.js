@@ -23,6 +23,7 @@ import Hero from "../components/Hero";
 import TechStackItem from "../components/TechStackItem";
 
 import { request } from "../lib/datocms";
+import Footer from "../components/Footer";
 
 const HOMEPAGE_QUERY = `
 query {
@@ -96,6 +97,7 @@ const Home = ({ data }) => {
             </div>
           </div>
         </main>
+        <Footer />
       </div>
     </div>
   );
